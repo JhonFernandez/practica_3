@@ -1,0 +1,58 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : edu.pucmm : webPractica3-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/webPractica3-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/webPractica3-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webPractica3_main/web/Web Gradle : webPractica3-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webPractica3_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.1" />
+          <element id="library" level="project" name="Gradle: com.sparkjava:spark-core:2.6.0" />
+          <element id="library" level="project" name="Gradle: com.sparkjava:spark-kotlin:1.0.0-alpha" />
+          <element id="library" level="project" name="Gradle: com.hubspot.jinjava:jinjava:2.0.5" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.0.9" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.0.9" />
+          <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.1" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.13" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-server:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-webapp:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.2-2" />
+          <element id="library" level="project" name="Gradle: com.google.guava:guava:17.0" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.19.0-GA" />
+          <element id="library" level="project" name="Gradle: org.jsoup:jsoup:1.8.1" />
+          <element id="library" level="project" name="Gradle: de.odysseus.juel:juel-api:2.2.7" />
+          <element id="library" level="project" name="Gradle: de.odysseus.juel:juel-impl:2.2.7" />
+          <element id="library" level="project" name="Gradle: de.odysseus.juel:juel-spi:2.2.7" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.4" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.3.1" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-http:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-io:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-util:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-security:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.eclipse.jetty:jetty-client:9.4.4.v20170414" />
+          <element id="library" level="project" name="Gradle: org.jetbrains:annotations:13.0" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.191/dec3540178ea889b2871b0ed56db14bbec9cfdfc/h2-1.4.191.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
