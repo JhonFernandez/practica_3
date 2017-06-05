@@ -36,14 +36,15 @@ class H2Connection(
     fun initDatabase() {
         val conn = getConnection()
 
-        val sql = "CREATE TABLE IF NOT EXISTS ESTUDIANTE\n" +
+        val sql = "CREATE TABLE PUBLIC.user\n" +
                 "(\n" +
-                "  MATRICULA INTEGER PRIMARY KEY NOT NULL,\n" +
-                "  NOMBRE VARCHAR(100) NOT NULL,\n" +
-                "  APELLIDO VARCHAR(100) NOT NULL,\n" +
-                "  TELEFONO VARCHAR(25) NOT NULL,\n" +
-                "  CARRERA VARCHAR(50) NOT NULL\n" +
-                ");"
+                "username VARCHAR(40) PRIMARY KEY NOT NULL,\n" +
+                "name VARCHAR(40) NOT NULL,\n" +
+                "password VARCHAR(40) NOT NULL,\n" +
+                "is_admin BOOL NOT NULL,\n" +
+                "is_author BOOL NOT NULL\n" +
+                ");\n"
+
         val statement: Statement = conn.createStatement()
         statement.execute(sql)
         statement.close()
@@ -59,6 +60,5 @@ class H2Connection(
             println(ex.message)
         }
     }
-
 
 }
