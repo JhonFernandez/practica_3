@@ -20,6 +20,7 @@ repositories {
 }
 
 dependencies {
+    compile 'org.sql2o:sql2o:1.5.4'
     compile "com.hubspot.jinjava:jinjava:2.0.5"
     compile "com.sparkjava:spark-core:2.6.0"
     compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
